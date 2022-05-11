@@ -32,5 +32,5 @@ During this session, we’ll explore event-driven architecture and how we can in
 
 | Event | Location | Date | Time | Room | Downloads |
 |-------|:--------:|-----:|-----:|-----:|----------:|
+| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | Available Afterwards | 
 | [CodeStock](https://www.codestock.org/) | Knoxville, TN | April 7, 2022 | 1:55 pm EDT | Ballroom B | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20CodeStock.pdf) |
-| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 6 - 8, 2022 | TBA | TBA | Available Afterwards | 
