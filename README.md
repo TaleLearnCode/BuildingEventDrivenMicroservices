@@ -26,11 +26,12 @@ During this session, we’ll explore event-driven architecture and how we can in
 ## Learning Objectives
 * Learn what event-driven architecture is and how your applications can benefit from its use
 * Learn how to transform your complex systems to become event-driven
-* See firsthand how to build a event-driven microsevrice architecture to build highly scalable solutions
+* See firsthand how to build a event-driven microservice architecture to build highly scalable solutions
 
 ## Presentations
 
 | Event | Location | Date | Time | Room | Downloads |
 |-------|:--------:|-----:|-----:|-----:|----------:|
 | [CodeStock](https://www.codestock.org/) | Knoxville, TN | April 7, 2022 | 1:55 pm EDT | Ballroom B | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20CodeStock.pdf) |
-| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 6 - 8, 2022 | TBA | TBA | Available Afterwards | 
+| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | [Slides](file:///C:\Repos\TaleLearnCode\Presentations\BuildingMicroserviceRESTAPIsUsingAzureFunctions\Presentations\Building_Microservice_REST_APIs_Using_Azure_Functions-DevUp.pdf) |
+| [TechBash 2022](https://www.techbash.com) | Mt. Pocono, PA | November 8 - 11, 2022 | TBA | TBA | Available Afterwards |
