@@ -32,8 +32,7 @@ During this session, we’ll explore event-driven architecture and how we can in
 
 | Event | Location | Date | Time | Room | Downloads |
 |-------|:--------:|-----:|-----:|-----:|----------:|
-| [THAT](https://that.us/activities/hkLCBbTl8zuhjbdPwoXG) | Wisconsin Dells, WI | Juy 27, 2022 | 3:30 pm EDT | Room H | Available Afterwards |
-| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | Available Afterwards | 
-| [CodeStock](https://www.codestock.org/) | Knoxville, TN | April 7, 2022 | 1:55 pm EDT | Ballroom B | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20CodeStock.pdf) |
-| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | [Slides](file:///C:\Repos\TaleLearnCode\Presentations\BuildingMicroserviceRESTAPIsUsingAzureFunctions\Presentations\Building_Microservice_REST_APIs_Using_Azure_Functions-DevUp.pdf) |
 | [TechBash 2022](https://www.techbash.com) | Mt. Pocono, PA | November 8 - 11, 2022 | TBA | TBA | Available Afterwards |
+| [THAT](https://that.us/activities/hkLCBbTl8zuhjbdPwoXG) | Wisconsin Dells, WI | Juy 27, 2022 | 3:30 pm EDT | Room H | Available Afterwards |
+| [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | [Slides](file:///C:\Repos\TaleLearnCode\Presentations\BuildingMicroserviceRESTAPIsUsingAzureFunctions\Presentations\Building_Microservice_REST_APIs_Using_Azure_Functions-DevUp.pdf) |
+| [CodeStock](https://www.codestock.org/) | Knoxville, TN | April 7, 2022 | 1:55 pm EDT | Ballroom B | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20CodeStock.pdf) |
