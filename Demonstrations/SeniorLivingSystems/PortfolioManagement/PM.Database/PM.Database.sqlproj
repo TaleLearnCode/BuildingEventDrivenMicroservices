@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>PM.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{137fe5ce-945c-4d16-8187-109aa4398978}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>PM.Database</RootNamespace>
+    <AssemblyName>PM.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunSqlCodeAnalysis>True</RunSqlCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\CustomerData" />
+    <Folder Include="Scripts\Populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\CareType.sql" />
+    <Build Include="Tables\Community.sql" />
+    <Build Include="Tables\CommunityCareType.sql" />
+    <Build Include="Tables\CommunityPhoneNumber.sql" />
+    <Build Include="Tables\CommunityPostalAddress.sql" />
+    <Build Include="Tables\CommunityRoomType.sql" />
+    <Build Include="Tables\CommunityStatus.sql" />
+    <Build Include="Tables\CommunityStructure.sql" />
+    <Build Include="Tables\CommunityStructureType.sql" />
+    <Build Include="Tables\Content.sql" />
+    <Build Include="Tables\ContentCopy.sql" />
+    <Build Include="Tables\Country.sql" />
+    <Build Include="Tables\CountryDivision.sql" />
+    <Build Include="Tables\DigitalAsset.sql" />
+    <Build Include="Tables\DigitalAssetType.sql" />
+    <Build Include="Tables\Language.sql" />
+    <Build Include="Tables\LanguageCulture.sql" />
+    <Build Include="Tables\PayorType.sql" />
+    <Build Include="Tables\PhoneNumberType.sql" />
+    <Build Include="Tables\PostalAddressType.sql" />
+    <Build Include="Tables\Room.sql" />
+    <Build Include="Tables\RoomAvailability.sql" />
+    <Build Include="Tables\RoomCareType.sql" />
+    <Build Include="Tables\RoomHistory.sql" />
+    <Build Include="Tables\RoomRate.sql" />
+    <Build Include="Tables\RoomRateHistory.sql" />
+    <Build Include="Tables\RoomStyle.sql" />
+    <Build Include="Tables\RoomType.sql" />
+    <Build Include="Tables\RoomTypeCategory.sql" />
+    <Build Include="Tables\WorldRegion.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CareType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_Community.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityCareType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityPhoneNumber.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityPostalAddress.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityRoomType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityStatus.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityStructure.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_CommunityStructureType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_PayorType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_PhoneNumberType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_PostalAddress.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_PostalAddressType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_Room.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomAvailability.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomCareType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomRate.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomStyle.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomType.sql" />
+    <None Include="Scripts\CustomerData\CustomerData_RoomTypeCategory.sql" />
+    <None Include="Scripts\Populate\Populate_Country.sql" />
+    <None Include="Scripts\Populate\Populate_CountryDivision.sql" />
+    <None Include="Scripts\Populate\Populate_DigitalAssetType.sql" />
+    <None Include="Scripts\Populate\Populate_Language.sql" />
+    <None Include="Scripts\Populate\Populate_LanguageCulture.sql" />
+    <None Include="Scripts\Populate\Populate_WorldRegion.sql" />
+    <Build Include="PM.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PM.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
+</Project>

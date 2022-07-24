@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32408.312
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PM.Database", "PortfolioManagement\PM.Database\PM.Database.sqlproj", "{137FE5CE-945C-4D16-8187-109AA4398978}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RM.Database", "ResidentManagement\RM.Database\RM.Database.sqlproj", "{CCD6D012-016A-4BB1-9904-FA313ECFF121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B8E9CB1-19CD-46FD-AAD0-BC88DB6FFAAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137FE5CE-945C-4D16-8187-109AA4398978}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
