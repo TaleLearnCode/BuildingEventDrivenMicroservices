@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PM.Database", "PortfolioMan
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RM.Database", "ResidentManagement\RM.Database\RM.Database.sqlproj", "{CCD6D012-016A-4BB1-9904-FA313ECFF121}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CM.Database", "CareManagement\CM.Database\CM.Database.sqlproj", "{A13D5D09-6C01-4808-B130-8FBFFDE19A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCD6D012-016A-4BB1-9904-FA313ECFF121}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13D5D09-6C01-4808-B130-8FBFFDE19A10}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

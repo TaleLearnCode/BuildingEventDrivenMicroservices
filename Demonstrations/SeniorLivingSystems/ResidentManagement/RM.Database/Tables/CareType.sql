@@ -12,9 +12,6 @@
 )
 GO
 
-CREATE UNIQUE NONCLUSTERED INDEX unqCareType_ExternalId ON RM.CareType (ExternalId) WHERE ExternalId IS NOT NULL
-GO
-
 EXEC sp_addextendedproperty @level0name=N'RM', @level1name=N'CareType',                                        @value=N'Represents a type of care provided by a community.',                                                 @name=N'MS_Description', @level0type=N'SCHEMA', @level1type=N'TABLE';
 GO
 EXEC sp_addextendedproperty @level0name=N'RM', @level1name=N'CareType', @level2name=N'CareTypeId',             @value=N'Identifier for the care type record.',                                                               @name=N'MS_Description', @level0type=N'SCHEMA', @level1type=N'TABLE', @level2type=N'COLUMN';
