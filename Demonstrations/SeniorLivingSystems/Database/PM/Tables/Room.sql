@@ -12,6 +12,7 @@
 	ContentId            INT                                                    NULL,
 	RoomArea             DECIMAL(7,2)                                           NULL,
 	FloorPlanId          INT                                                    NULL,
+	AssignedCareTypeId   INT                                                    NULL,
 	SortOrder            INT                                                    NULL,
 	RowStatusId          INT                                                NOT NULL CONSTRAINT dfRoom_RowStatusId DEFAULT(1),
 	ValidFrom            DATETIME2     GENERATED ALWAYS AS ROW START HIDDEN NOT NULL,
@@ -23,7 +24,8 @@
 	CONSTRAINT fkRoom_RoomAvailability   FOREIGN KEY (RoomAvailabilityId)   REFERENCES PM.RoomAvailability (RoomAvailabilityId),
 	CONSTRAINT fkRoom_RoomType           FOREIGN KEY (RoomTypeId)           REFERENCES PM.RoomType (RoomTypeId),
 	CONSTRAINT fkRoom_Content            FOREIGN KEY (ContentId)            REFERENCES PM.Content (ContentId),
-	CONSTRAINT fkRoom_DigitalAsset       FOREIGN KEY (FloorPlanId)          REFERENCES PM.DigitalAsset (DigitalAssetId)
+	CONSTRAINT fkRoom_DigitalAsset       FOREIGN KEY (FloorPlanId)          REFERENCES PM.DigitalAsset (DigitalAssetId),
+	CONSTRAINT fkRoom_CareType           FOREIGN KEY (AssignedCareTypeId)   REFERENCES PM.CareType (CareTypeId)
 ) WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = PM.RoomHistory))
 GO
 

@@ -12,6 +12,7 @@
 	ContentId            INT               NULL,
 	RoomArea             DECIMAL(7,2)      NULL,
 	FloorPlanId          INT               NULL,
+	AssignedCareTypeId   INT               NULL,
 	SortOrder            INT               NULL,
 	RowStatusId          INT           NOT NULL,
 	ValidFrom            DATETIME2     NOT NULL,
