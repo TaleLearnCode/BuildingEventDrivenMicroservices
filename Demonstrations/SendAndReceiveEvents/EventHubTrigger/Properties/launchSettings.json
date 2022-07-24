@@ -2,7 +2,7 @@
   "profiles": {
     "EventHubTrigger": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7277",
+      "commandLineArgs": "--port 7261",
       "launchBrowser": false
     }
   }
