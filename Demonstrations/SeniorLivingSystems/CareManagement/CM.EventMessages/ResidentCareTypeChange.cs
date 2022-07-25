@@ -3,8 +3,13 @@
 /// <summary>
 /// Represents the message sent when a resident's care type is changed
 /// </summary>
-public class ResidentCareTypeChange
+public class ResidentCareTypeChange : EventMessage
 {
+
+	public ResidentCareTypeChange()
+	{
+		MessageType = nameof(ResidentCareTypeChange);
+	}
 
 	/// <summary>
 	/// Identifier of the resident whose care type is being changed.
