@@ -11,6 +11,12 @@ internal static partial class CreateModel
 
 			entity.Property(e => e.CareeId).ValueGeneratedNever();
 
+			entity.Property(e => e.FirstName).HasMaxLength(100);
+
+			entity.Property(e => e.LastName).HasMaxLength(100);
+
+			entity.Property(e => e.MiddleName).HasMaxLength(100);
+
 			entity.HasOne(d => d.CareType)
 					.WithMany(p => p.Carees)
 					.HasForeignKey(d => d.CareTypeId)

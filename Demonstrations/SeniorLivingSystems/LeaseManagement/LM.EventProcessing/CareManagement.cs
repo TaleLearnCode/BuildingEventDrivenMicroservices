@@ -1,10 +1,3 @@
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Extensions.Logging;
-using SLS.EventMessages;
-using SLS.EventMessages.CM;
-using SLS.LM.Repository;
-using System.Text.Json;
-
 namespace SLS.LM.EventProcessing;
 
 public class CareManagement

@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PM.EventProcessing", "Portf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RM.EventProcessing", "ResidentManagement\RM.EventProcessing\RM.EventProcessing.csproj", "{BF9C7516-2ED5-4FAB-8591-054C7A346D02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpgradeCareDemo", "UpgradeCareDemo\UpgradeCareDemo.csproj", "{F579C8FF-07D9-4475-81D5-B00E110A46AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{BF9C7516-2ED5-4FAB-8591-054C7A346D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF9C7516-2ED5-4FAB-8591-054C7A346D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF9C7516-2ED5-4FAB-8591-054C7A346D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F579C8FF-07D9-4475-81D5-B00E110A46AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F579C8FF-07D9-4475-81D5-B00E110A46AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F579C8FF-07D9-4475-81D5-B00E110A46AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F579C8FF-07D9-4475-81D5-B00E110A46AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
