@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="PM.Database.publish.xml" />
+    <None Include="PM.Database-Laptop.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

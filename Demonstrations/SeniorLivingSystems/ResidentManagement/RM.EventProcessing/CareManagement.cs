@@ -21,7 +21,7 @@ public class CareManagement
 		_context = residentManagementContext;
 	}
 
-	[Function("CareManagement")]
+	[Function("RM-CareManagement")]
 	public async Task RunAsync([EventHubTrigger("care-management", Connection = "EventHubConnectionString", ConsumerGroup = "resident-management")] string[] messages)
 	{
 		_logger.LogInformation($"First Event Hubs triggered message: {messages[0]}");

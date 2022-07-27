@@ -6,7 +6,7 @@ var host = new HostBuilder()
 	.ConfigureFunctionsWorkerDefaults()
 	.ConfigureServices(s =>
 	{
-		s.AddSingleton((s) => { return new ResidentManagementContext("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=BEDM_ResidentManagement;Persist Security Info=True"); });
+		s.AddSingleton((s) => { return new ResidentManagementContext("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BEDM_ResidentManagement;Persist Security Info=True"); });
 	})
 	.Build();
 

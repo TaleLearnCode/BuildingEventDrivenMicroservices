@@ -75,5 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CM.Database.publish.xml" />
+    <None Include="CM.Database-Laptop.publish.xml" />
   </ItemGroup>
 </Project>

@@ -21,7 +21,7 @@ public class CareManagement
 		_context = portfolioManagementContext;
 	}
 
-	[Function("CareManagement")]
+	[Function("PM-CareManagement")]
 	public async Task RunAsync([EventHubTrigger("care-management", Connection = "EventHubConnectionString", ConsumerGroup = "portfolio-management")] string[] messages)
 	{
 		_logger.LogInformation($"First Event Hubs triggered message: {messages[0]}");

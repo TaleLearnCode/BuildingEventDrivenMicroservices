@@ -80,6 +80,7 @@
     <None Include="Scripts\CustomerData\CustomerData_Room.sql" />
     <None Include="Scripts\CustomerData\CustomerData_Resident.sql" />
     <None Include="Scripts\CustomerData\CustomerData_ResidentRoom.sql" />
+    <None Include="RM.Database-Laptop.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

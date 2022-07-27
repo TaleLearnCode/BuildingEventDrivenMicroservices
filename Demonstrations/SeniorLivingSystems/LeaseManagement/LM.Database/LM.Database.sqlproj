@@ -74,6 +74,7 @@
     <None Include="Scripts\CustomerData\CustomerData_Leasee.sql" />
     <None Include="Scripts\CustomerData\CustomerData_Lease.sql" />
     <None Include="LM.Database.publish.xml" />
+    <None Include="LM.Database-Laptop.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

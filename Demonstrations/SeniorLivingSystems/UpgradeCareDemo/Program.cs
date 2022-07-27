@@ -27,6 +27,10 @@ do
 		int careTypeId = GetNumericInput("Care Type Id: ");
 		int roomRate = GetNumericInput("Room Rate: ");
 
+		caree.CareTypeId = careTypeId;
+		_careManagementContext.Carees.Update(caree);
+		await _careManagementContext.SaveChangesAsync();
+
 		ResidentCareTypeChange? residentCareTypeChange = await BuildMessageAsync(caree.CareeId, careTypeId, roomRate);
 		if (residentCareTypeChange is not null)
 			await SendMessageAsync(residentCareTypeChange);
@@ -86,12 +90,12 @@ void DisplayHeader()
 
 CareManagementContext GetCareManagementContext()
 {
-	return new("Data Source=(localdb)\mssqllocaldb;Initial Catalog=BEDM_CareManagement;Persist Security Info=True");
+	return new("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BEDM_CareManagement;Persist Security Info=True");
 }
 
 ResidentManagementContext GetResidentManagementContext()
 {
-	return new("Data Source=(localdb)\mssqllocaldb;Initial Catalog=BEDM_ResidentManagement;Persist Security Info=True");
+	return new("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BEDM_ResidentManagement;Persist Security Info=True");
 }
 
 async Task SendMessageAsync(ResidentCareTypeChange message)
@@ -105,7 +109,7 @@ async Task SendMessageAsync(ResidentCareTypeChange message)
 
 		if (!eventDataBatch.TryAdd(new EventData(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message)))))
 			// if it is too large for the batch
-			throw new Exception($"Event {i} is too large for the batch and cannot be sent.");
+			throw new Exception($"Event is too large for the batch and cannot be sent.");
 
 		try
 		{

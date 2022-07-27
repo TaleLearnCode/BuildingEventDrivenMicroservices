@@ -6,7 +6,7 @@ var host = new HostBuilder()
 	.ConfigureFunctionsWorkerDefaults()
 	.ConfigureServices(s =>
 	{
-		s.AddSingleton((s) => { return new PortfolioManagementContext("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=BEDM_PortfolioManagement;Persist Security Info=True"); });
+		s.AddSingleton((s) => { return new PortfolioManagementContext("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=BEDM_PortfolioManagement;Persist Security Info=True"); });
 	})
 	.Build();
 
