@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "EventHubConnectionString": "Endpoint=sb://buildingeventdrivenmicroservices.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=OKf96cTj4Md3nTy9YCIngcbw5POfUm/jb1+BDpH67s8=",
+    "AzureWebJobsEventHubConnectionString": "UseDevelopmentStorage=true"
+  }
+}
