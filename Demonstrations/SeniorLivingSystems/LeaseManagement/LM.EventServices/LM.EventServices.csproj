@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SLS.LM.EventServices</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CareManagement\CM.EventMessages\CM.EventMessages.csproj" />
+    <ProjectReference Include="..\LM.Repository\LM.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
