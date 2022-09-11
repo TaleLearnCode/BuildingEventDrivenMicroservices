@@ -34,8 +34,11 @@ Microservices help build modern applications to be more resilient and reduce dep
 
 | Event | Location | Date | Time | Room | Downloads |
 |-------|:--------:|-----:|-----:|-----:|----------:|
+| [Prairie Dev Con - Winnipeg](https://www.prairiedevcon.com/winnipeg.html) | Winnipeg, MB | November 7 - 8, 2022 | TBA | TBA | Available Afterwards |
+| [Indy.Code](https://momentumdevcon.com/session/344412) | Cincinnati, OH | October 20, 2022 | TBA | TBA | Available Afterwards |
 | [Indy.Code](https://indycode.amegala.com/) | Carmel, IN | October 19, 2022 | 9:35 am EDT | Hamilton | Available Afterwards |
-| [Atlanta Developers' Conference](https://www.atldevcon.com/) | Atlanta, GA | September 17, 2022 | 11:15 am EDT | Room 104 | Available Afterwards |
+| [Prairie Dev Con - Regina](https://www.prairiedevcon.com/regina.html) | Regina, SK | October 3 - 4, 2022 | TBA | TBA | Available Afterwards |
+| [Atlanta Developers' Conference](https://www.atldevcon.com/) | Atlanta, GA | September 17, 2022 | 11:15 am EDT | Room 104 | [Slides](Presentations/BuildingEventDrivenMicroservices_AtlDevCon.pdf) |
 | [THAT](https://that.us/activities/hkLCBbTl8zuhjbdPwoXG) | Wisconsin Dells, WI | Juy 27, 2022 | 2:30 pm CDT | Room H | [Slides](Presentations/BuildingEventDrivenMicroservices_THAT.pdf) |
 | [dev up 2022](https://www.devupconf.org/speakers/chad-green) | St. Charles, MO | June 7, 2022 | 11:00 am CDT | Imagination B | [Slides](https://github.com/TaleLearnCode/BuildingEventDrivenMicroservices/blob/main/Presentations/Building%20Event-Driven%20Microservices%20-%20DevUp.pdf) |
 | [CodeStock](https://www.codestock.org/) | Knoxville, TN | April 7, 2022 | 1:55 pm EDT | Ballroom B | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20CodeStock.pdf) |
