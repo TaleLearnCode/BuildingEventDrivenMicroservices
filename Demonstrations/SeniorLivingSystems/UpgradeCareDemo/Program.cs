@@ -1,15 +1,4 @@
-﻿using Azure.Messaging.EventHubs;
-using Azure.Messaging.EventHubs.Producer;
-using Microsoft.EntityFrameworkCore;
-using SLS.CM.Repository;
-using SLS.CM.Repository.Entities;
-using SLS.EventMessages.CM;
-using SLS.RM.Repository;
-using SLS.RM.Repository.Entities;
-using System.Text;
-using System.Text.Json;
-
-CareManagementContext _careManagementContext = GetCareManagementContext();
+﻿CareManagementContext _careManagementContext = GetCareManagementContext();
 ResidentManagementContext _residentManagementContext = GetResidentManagementContext();
 
 DisplayHeader();
