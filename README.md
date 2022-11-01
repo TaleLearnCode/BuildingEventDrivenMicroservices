@@ -34,7 +34,7 @@ Microservices help build modern applications to be more resilient and reduce dep
 
 | Event | Location | Date | Time | Room | Downloads |
 |-------|:--------:|-----:|-----:|-----:|----------:|
-| [Prairie Dev Con - Winnipeg](https://www.prairiedevcon.com/winnipeg.html) | Winnipeg, MB | November 7 - 8, 2022 | TBA | TBA | Available Afterwards |
+| [Prairie Dev Con - Winnipeg](https://www.prairiedevcon.com/winnipeg.html) | Winnipeg, MB | November 7 - 8, 2022 | 3:30 CST | TBA | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20PDCWinnipeg.pdf) |
 | [Momentum Developer Conference](https://momentumdevcon.com/session/344412) | Cincinnati, OH | October 20, 2022 | 3:10 PM EDT | Ballroom D | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20Momentum.pdf) |
 | [Indy.Code](https://indycode.amegala.com/) | Carmel, IN | October 19, 2022 | 9:35 am EDT | Hamilton | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20IndyCode.pdf) |
 | [Prairie Dev Con - Regina](https://www.prairiedevcon.com/regina.html) | Regina, SK | October 3, 2022 | 9:45 AM CDT | Lombardy | [Slides](Presentations/Building%20Event-Driven%20Microservices%20-%20PDCRegina.pdf) |
